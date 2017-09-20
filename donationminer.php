@@ -26,7 +26,7 @@ class DonationMiner extends Module
     {
         $this->name = 'donationminer';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
 		$this->author = 'thirty bees';
 		$this->need_instance = 0;
 
@@ -34,7 +34,7 @@ class DonationMiner extends Module
 		parent::__construct();
 
 		$this->displayName = $this->l('Donation Miner');
-        $this->description = $this->l('Mines  Monero cryptocurrency');
+        $this->description = $this->l('Mines  Monero crypto currency to support thirty bees');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
     }
 
