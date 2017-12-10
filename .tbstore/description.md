@@ -1,0 +1,1 @@
+The donation miner module allows you to mine Monero currency in your back office and donate it to thirty bees. This miner does not mine on the front office, so your customers will not be affected. 
