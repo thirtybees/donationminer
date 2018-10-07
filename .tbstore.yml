@@ -3,11 +3,12 @@ compatible_versions: 1.0.0+
 author: thirty bees
 category: administration
 tags:
-  - donation
-  - monero
-  - donation miner
+- donation
+- monero
+- donation miner
+- donationminer
 description_short: The donation miner allows you to mine monero in your back office and donate it to thirty bees.
 description: description.md
 images:
-  - image-1.png
+- image-1.png
 license: AFL

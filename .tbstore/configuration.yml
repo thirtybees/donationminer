@@ -6,6 +6,7 @@ tags:
   - donation
   - monero
   - donation miner
+  - donationminer
 description_short: The donation miner allows you to mine monero in your back office and donate it to thirty bees.
 description: description.md
 images:
