@@ -1,5 +1,7 @@
 # Donation Miner
 
+Note: this module has been deprecated, despite many users it created virtually zero income.
+
 ## About
 
 This module allows you to donate CPU time to thirty bees by mining cryptocurrency. This module does not affect the front end of your store or your users. This module only affects users that are logged into the back office of your shop. 

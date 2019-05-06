@@ -28,15 +28,14 @@ class DonationMiner extends Module
         $this->tab = 'administration';
         $this->version = '1.0.1';
 		$this->author = 'thirty bees';
-		$this->need_instance = 0;
-
+        $this->need_instance = 1;
         $this->bootstrap = true;
 		parent::__construct();
 
 		$this->displayName = $this->l('Donation Miner');
-        $this->description = $this->l('Mines  Monero crypto currency to support thirty bees');
+        $this->description = $this->l('This module is deprecated and no longer does anything.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
-    }
+        $this->warning = $this->l('This module was deprecated, no longer does anything and can get uninstalled and removed safely.');    }
 
 	public function install()
 	{
@@ -62,8 +61,8 @@ class DonationMiner extends Module
 		return true;
 	}
 
-
-	public function getContent()
+    // Deprecation: obfuscated name to hide the configuration page.
+	public function getContentOff()
 	{
 		$output = '';
 		if (Tools::isSubmit('submitDonationMiner'))
@@ -92,6 +91,9 @@ class DonationMiner extends Module
 
 	public function hookBackOfficeHeader()
 	{
+        // Deprecation: do nothing.
+        return '';
+        
         $this->smarty->assign(
             [
                 'name' => Configuration::get('PS_SHOP_NAME'),
