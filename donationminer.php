@@ -26,7 +26,7 @@ class DonationMiner extends Module
     {
         $this->name = 'donationminer';
         $this->tab = 'administration';
-        $this->version = '1.0.1';
+        $this->version = '1.1.0';
 		$this->author = 'thirty bees';
         $this->need_instance = 1;
         $this->bootstrap = true;
